@@ -14,5 +14,6 @@ class Patient
 def new_appointment(date,doctor)
     Appointment.new(date,doctor,self)
   end
-  
+ 
+ appointment = hevydevy.new_appointment("Friday, January 32nd", doctor_who) 
  end
